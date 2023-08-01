@@ -10,14 +10,13 @@ public class hello {
 
         // verificação da primeira nota
 
- 
         // imprimir o que quero
         System.out.println("Informa a primeira nota:");
 
         // leitura do valor do usuário
         n1 = ler.nextDouble();
 
-        while ((n1 <= 0) || (n1 >= 10) || (n1 == -0)) {
+        while ((n1 < 0) || (n1 > 10) || (n1 == -0)) {
 
             System.out.println("Informa a primeira nota novamente:");
             n1 = ler.nextDouble();
@@ -27,7 +26,7 @@ public class hello {
         System.out.println("Informa a segunda nota:");
         n2 = ler.nextDouble();
 
-        while ((n2 <= 0.0) || (n2 >= 10.0) || (n2 == -0.0)) {
+        while ((n2 < 0.0) || (n2 > 10.0) || (n2 == -0.0)) {
 
             System.out.println("Informa a segunda nota novamente:");
             n2 = ler.nextDouble();
