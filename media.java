@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class hello {
+public class media {
     public static void main(String[] args) {
 
         // scanner para verificar o que o usuário informar
@@ -18,17 +18,17 @@ public class hello {
 
         while ((n1 < 0) || (n1 > 10) || (n1 == -0)) {
 
-            System.out.println("Informa a primeira nota novamente:");
+            System.out.println("Informe a primeira nota novamente:");
             n1 = ler.nextDouble();
         }
 
         // verificação da segunda nota
-        System.out.println("Informa a segunda nota:");
+        System.out.println("Informe a segunda nota:");
         n2 = ler.nextDouble();
 
         while ((n2 < 0.0) || (n2 > 10.0) || (n2 == -0.0)) {
 
-            System.out.println("Informa a segunda nota novamente:");
+            System.out.println("Informe a segunda nota novamente:");
             n2 = ler.nextDouble();
         }
 
